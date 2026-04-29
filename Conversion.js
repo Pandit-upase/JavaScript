@@ -55,3 +55,4 @@ console.log(1 + 2 + "2");
 
 // Step 1: 1 + 2 → 3 (number)
 // Step 2: 3 + "2" → "32" (string conversion happens here)
+
