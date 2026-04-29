@@ -29,3 +29,29 @@ console.log("Number to Boolean:", convertedNumBool, "Type:", typeof convertedNum
 let boolToNum = false;
 let convertedBoolNum = Number(boolToNum);
 console.log("Boolean to Number:", convertedBoolNum, "Type:", typeof convertedBoolNum);
+
+//============================================*****=====================================
+
+
+// STRING + NUMBER → becomes STRING (joins like text)
+console.log("1" + 2); 
+// "1" + 2 → "12"
+
+
+// NUMBER + STRING → becomes STRING
+console.log(1 + "2"); 
+// 1 + "2" → "12"
+
+
+// Left to right execution happens
+console.log("1" + 2 + 2);
+
+// Step 1: "1" + 2 → "12" (string now)
+// Step 2: "12" + 2 → "122"
+
+
+// Again left to right
+console.log(1 + 2 + "2");
+
+// Step 1: 1 + 2 → 3 (number)
+// Step 2: 3 + "2" → "32" (string conversion happens here)
